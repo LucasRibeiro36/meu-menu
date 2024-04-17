@@ -37,13 +37,13 @@ const MenuCard = ({ item }) => {
       <h2>{item.name}</h2>
       {expanded ? (
         <>
+          <p>{item.description}</p>
           <h3>Ingredientes:</h3>
           <ul>
             {item.flavors && item.flavors.find(flavor => flavor.name === selectedFlavor).ingredients.map((ingredient, index) => (
               <li key={index}>{ingredient}</li>
             ))}
           </ul>
-          <p>{item.description}</p>
         </>
       ) : (
         <p>{item.description}</p>

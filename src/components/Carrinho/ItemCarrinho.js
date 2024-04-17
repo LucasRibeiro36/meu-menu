@@ -36,7 +36,7 @@ const ItemCarrinho = ({ item }) => {
         <tr>
             <td>{item.name}</td>
             <td>{item.quantity}</td>
-            <td>{item.ingredients.join(', ')}</td>
+            <td>{item.selectedFlavor}</td>
             <td>{item.description}</td>
             <td>{parseFloat(item.price).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</td>
             <td>{parseFloat(item.price * item.quantity).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</td>

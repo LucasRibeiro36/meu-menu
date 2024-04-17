@@ -107,6 +107,66 @@
                   ]
               }
           ]
+      },
+      {
+          "id": 5,
+          "name": "Pizza Vegana",
+          "price": 30.00,
+          "image": "https://veganogourmand.it/wp-content/uploads/2017/09/Pizza-vegana-con-friarielli.jpg",
+          "description": "Pizza quentinha e saborosa, perfeita para compartilhar.",
+          "flavors": [
+              {
+                  "name": "Padrão",
+                  "ingredients": [
+                      "Massa de pizza",
+                      "Molho de tomate",
+                      "Queijo de soja",
+                      "Pepperoni de soja",
+                      "Cogumelos",
+                      "Pimentão"
+                  ]
+              }
+          ]
+      },
+      {
+          "id": 6,
+          "name": "Hamburguer Vegetariano",
+          "price": 25.00,
+          "image": "https://veganandcolors.com/wp-content/uploads/2020/04/b2-3-750x761.jpg",
+          "description": "Delicioso hamburguer feito com ingredientes frescos.",
+          "flavors": [
+              {
+                  "name": "Padrão",
+                  "ingredients": [
+                      "Pão",
+                      "Carne de soja",
+                      "Queijo",
+                      "Alface",
+                      "Tomate",
+                      "Cebola"
+                  ]
+              }
+          ]
+      },
+      {
+          "id": 7,
+          "name": "Pizza Vegetariana",
+          "price": 30.00,
+          "image": "https://veganogourmand.it/wp-content/uploads/2017/09/Pizza-vegana-con-friarielli.jpg",
+          "description": "Pizza quentinha e saborosa, perfeita para compartilhar.",
+          "flavors": [
+              {
+                  "name": "Padrão",
+                  "ingredients": [
+                      "Massa de pizza",
+                      "Molho de tomate",
+                      "Queijo",
+                      "Pepperoni de soja",
+                      "Cogumelos",
+                      "Pimentão"
+                  ]
+              }
+          ]
       }
   ]
 }
