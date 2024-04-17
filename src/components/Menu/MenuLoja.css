@@ -1,0 +1,42 @@
+.menuLoja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.shop-info img {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.shop-info h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.shop-info p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.shop-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.shop-info ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.shop-info .open-status {
+    font-weight: bold;
+    color: green; /* ou qualquer cor que desejar para indicar aberto */
+}

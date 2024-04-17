@@ -1,0 +1,19 @@
+.not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .not-found h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-left: 10px; /* Adiciona um espaço entre o ícone e o texto */
+  }
+  
+  .icon {
+    font-size: 36px;
+    color: #FF6347; /* Cor laranja para o ícone de aviso */
+  }
+  

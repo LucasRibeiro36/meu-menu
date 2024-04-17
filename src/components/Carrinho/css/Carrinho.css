@@ -1,0 +1,150 @@
+/* Carrinho.css */
+.itens-carrinho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.tabela-carrinho {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.tabela-carrinho th,
+.tabela-carrinho td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabela-carrinho th {
+  background-color: #f2f2f2;
+}
+
+.item-remover {
+  background-color: #ff5c5c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.item-remover:hover {
+  background-color: #d14848;
+}
+
+
+.buttonRemover {
+  background-color: #ff5c5c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.buttonRemover:hover {
+  background-color: #d14848;
+}
+
+.buttonEditar {
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.buttonEditar:hover {
+  background-color: #646464;
+}
+
+.itens-carrinho {
+  margin-top: 20px;
+}
+
+.tabela-carrinho {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela-carrinho th,
+.tabela-carrinho td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Ajusta o alinhamento para centralizar o conteúdo */
+}
+
+.tabela-carrinho th {
+  background-color: #f2f2f2;
+}
+
+.tabela-carrinho tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tabela-carrinho tr:hover {
+  background-color: #ddd;
+}
+
+tfoot th {
+  text-align: right; /* Ajusta o alinhamento do texto no rodapé */
+}
+
+.buttonContinuar,
+.buttonFinalizar {
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.buttonContinuar:hover,
+.buttonFinalizar:hover {
+  background-color: #646464;
+}
+
+.buttonContinuar {
+  margin-right: 47px;
+}
+
+
+.tabela-carrinho tfoot th {
+  padding: 10px 0; /* Adiciona espaço entre o total e os botões */
+  text-align: center; /* Centraliza horizontalmente o conteúdo */
+}
+
+.buttonContinuar {
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.buttonFinalizar {
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-left: 14px;
+}
+
+.buttonContinuar:hover,
+.buttonFinalizar:hover {
+  background-color: #646464;
+}
+
+
+

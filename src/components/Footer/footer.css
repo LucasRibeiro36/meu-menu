@@ -1,0 +1,57 @@
+.footer {
+  position: fixed;
+  bottom: 10px;
+  left: 5%;
+  width: 90%;;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; /* Centralizando verticalmente */
+  padding: 10px 0;
+  border-radius: 50px; /* Ajuste o valor conforme necessário para obter o arredondamento desejado */
+  transition: all 0.3s ease; /* Adicionando uma transição suave */
+}
+
+.footer.small {
+   position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.footer-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 5px;
+  font-size: 14px;
+  font-family: Manrope, sans-serif;
+  width: 100px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.footer-button svg {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-button p {
+  margin-top: 4px;
+}
