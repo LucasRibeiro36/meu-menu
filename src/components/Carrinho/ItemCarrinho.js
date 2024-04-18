@@ -16,6 +16,7 @@ const ItemCarrinho = ({ item }) => {
 
     const removerItem = (itemId) => {
         carrinhoController.removerItem(itemId);
+        refreshPage();
     };
 
     const abrirEditarModal = () => {

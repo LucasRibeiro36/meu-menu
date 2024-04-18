@@ -17,14 +17,14 @@ const ItensCarrinho = ({ itens }) => {
             <table className="tabela-carrinho">
                 <thead>
                     <tr>
-                        <th>Nome</th>
-                        <th>Quantidade</th>
-                        <th>Sabor</th>
-                        <th>Tamanho</th>
-                        <th>Preço</th>
-                        <th>Subtotal</th>
-                        <th>Remover</th>
-                        <th>Editar</th>
+                        <th><span className='textTab'>Nome</span></th>
+                        <th><span className='textTab'>Quantidade</span></th>
+                        <th><span className='textTab'>Sabor</span></th>
+                        <th><span className='textTab'>Tamanho</span></th>
+                        <th><span className='textTab'>Preço</span></th>
+                        <th><span className='textTab'>Subtotal</span></th>
+                        <th><span className='textTab'>Remover</span></th>
+                        <th><span className='textTab'>Editar</span></th>
                     </tr>
                 </thead>
                 <tbody>
