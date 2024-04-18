@@ -151,3 +151,63 @@
 .menu-card .details-button {
   margin-bottom: 0; /* Remove a margem inferior do botão "Ver Detalhes" */
 }
+
+
+.search {
+  margin-bottom: 20px; /* Adiciona espaço entre o campo de pesquisa e o seletor de categoria */
+}
+
+.search input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px; /* Adiciona espaço entre o campo de pesquisa e o seletor de categoria */
+}
+
+.search select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.menu-header {
+  text-align: center; /* Centraliza o texto */
+  margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+}
+
+.menu {
+  display: flex;
+  flex-direction: column; /* Alterado para empilhar os itens verticalmente */
+  align-items: center; /* Centraliza os itens na horizontal */
+  margin-bottom: 100px; 
+}
+
+.menu-header {
+  text-align: center; /* Centraliza o texto */
+  margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+}
+
+.search {
+  margin-bottom: 20px; /* Adiciona espaço entre o campo de pesquisa e o seletor de categoria */
+}
+
+.search input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px; /* Adiciona espaço entre o campo de pesquisa e o seletor de categoria */
+}
+
+.search select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px; /* Adiciona espaço acima dos itens do menu */
+}

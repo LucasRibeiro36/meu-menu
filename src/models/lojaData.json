@@ -1,172 +1,179 @@
 {
-  "shop": {
-      "id": "1",
-      "name": "Restaurante 1",
-      "address": "Calle 1",
-      "phone": "123456789",
-      "email": "teste@gmail.com",
-      "image": "https://www.guiadasemana.com.br/contentFiles/image/2021/05/FEA/67239_shutterstock-1938676873.jpg",
-      "description": "Restaurante 1 é um restaurante de comida rápida que oferece uma variedade de pratos deliciosos. Venha nos visitar e experimente nossos pratos saborosos!",
-      "hours": {
-          "monday": "08:00 - 22:00",
-          "tuesday": "08:00 - 22:00",
-          "wednesday": "08:00 - 22:00",
-          "thursday": "08:00 - 22:00",
-          "friday": "08:00 - 22:00",
-          "saturday": "08:00 - 22:00",
-          "sunday": "08:00 - 22:00"
-      },
-      "isOpen": true
-  },
-  "products": [
-      {
-          "id": 1,
-          "name": "Hamburguer",
-          "price": 15.00,
-          "image": "https://www.guiadasemana.com.br/contentFiles/image/2021/05/FEA/67239_shutterstock-1938676873.jpg",
-          "description": "Delicioso hamburguer feito com ingredientes frescos.",
-          "flavors": [
-              {
-                  "name": "Padrão",
-                  "ingredients": [
-                      "Pão",
-                      "Carne",
-                      "Queijo",
-                      "Alface",
-                      "Tomate",
-                      "Cebola"
-                  ]
-              }
-          ]
-      },
-      {
-          "id": 2,
-          "name": "Pizza",
-          "price": 25.01,
-          "image": "https://th.bing.com/th/id/R.a5a2bf50ae479dffdf1940a4999fa114?rik=0%2ftEKf6ANbHuGg&pid=ImgRaw&r=0",
-          "description": "Pizza quentinha e saborosa, perfeita para compartilhar.",
-          "flavors": [
-              {
-                  "name": "Padrão",
-                  "ingredients": [
-                      "Massa de pizza",
-                      "Molho de tomate",
-                      "Queijo",
-                      "Pepperoni",
-                      "Cogumelos",
-                      "Pimentão"
-                  ]
-              }
-          ]
-      },
-      {
-          "id": 3,
-          "name": "Salada",
-          "price": 10.00,
-          "image": "https://claudia.abril.com.br/wp-content/uploads/2020/01/salada1-1.jpg",
-          "description": "Salada fresca com uma variedade de vegetais e molhos.",
-          "flavors": [
-              {
-                  "name": "Tipo 1",
-                  "ingredients": [
-                      "Alface",
-                      "Tomate",
-                      "Cenoura",
-                      "Beterraba",
-                      "Molho de mostarda"
-                  ]
-              },
-              {
-                  "name": "Tipo 2",
-                  "ingredients": [
-                      "Alface",
-                      "Tomate",
-                      "Cenoura",
-                      "Beterraba",
-                      "Molho de iogurte"
-                  ]
-              }
-          ]
-      },
-      {
-          "id": 4,
-          "name": "Hamburguer Vegano",
-          "price": 25.00,
-          "image": "https://veganandcolors.com/wp-content/uploads/2020/04/b2-3-750x761.jpg",
-          "description": "Delicioso hamburguer feito com ingredientes frescos.",
-          "flavors": [
-              {
-                  "name": "Padrão",
-                  "ingredients": [
-                      "Pão",
-                      "Carne de soja",
-                      "Queijo de soja",
-                      "Alface",
-                      "Tomate",
-                      "Cebola"
-                  ]
-              }
-          ]
-      },
-      {
-          "id": 5,
-          "name": "Pizza Vegana",
-          "price": 30.00,
-          "image": "https://veganogourmand.it/wp-content/uploads/2017/09/Pizza-vegana-con-friarielli.jpg",
-          "description": "Pizza quentinha e saborosa, perfeita para compartilhar.",
-          "flavors": [
-              {
-                  "name": "Padrão",
-                  "ingredients": [
-                      "Massa de pizza",
-                      "Molho de tomate",
-                      "Queijo de soja",
-                      "Pepperoni de soja",
-                      "Cogumelos",
-                      "Pimentão"
-                  ]
-              }
-          ]
-      },
-      {
-          "id": 6,
-          "name": "Hamburguer Vegetariano",
-          "price": 25.00,
-          "image": "https://veganandcolors.com/wp-content/uploads/2020/04/b2-3-750x761.jpg",
-          "description": "Delicioso hamburguer feito com ingredientes frescos.",
-          "flavors": [
-              {
-                  "name": "Padrão",
-                  "ingredients": [
-                      "Pão",
-                      "Carne de soja",
-                      "Queijo",
-                      "Alface",
-                      "Tomate",
-                      "Cebola"
-                  ]
-              }
-          ]
-      },
-      {
-          "id": 7,
-          "name": "Pizza Vegetariana",
-          "price": 30.00,
-          "image": "https://veganogourmand.it/wp-content/uploads/2017/09/Pizza-vegana-con-friarielli.jpg",
-          "description": "Pizza quentinha e saborosa, perfeita para compartilhar.",
-          "flavors": [
-              {
-                  "name": "Padrão",
-                  "ingredients": [
-                      "Massa de pizza",
-                      "Molho de tomate",
-                      "Queijo",
-                      "Pepperoni de soja",
-                      "Cogumelos",
-                      "Pimentão"
-                  ]
-              }
-          ]
-      }
-  ]
+    "shop": {
+        "id": "1",
+        "name": "Restaurante 1",
+        "address": "Calle 1",
+        "phone": "123456789",
+        "email": "teste@gmail.com",
+        "image": "https://www.guiadasemana.com.br/contentFiles/image/2021/05/FEA/67239_shutterstock-1938676873.jpg",
+        "description": "Restaurante 1 é um restaurante de comida rápida que oferece uma variedade de pratos deliciosos. Venha nos visitar e experimente nossos pratos saborosos!",
+        "hours": {
+            "monday": "08:00 - 22:00",
+            "tuesday": "08:00 - 22:00",
+            "wednesday": "08:00 - 22:00",
+            "thursday": "08:00 - 22:00",
+            "friday": "08:00 - 22:00",
+            "saturday": "08:00 - 22:00",
+            "sunday": "08:00 - 22:00"
+        },
+        "isOpen": true
+    },
+    "products": [
+        {
+            "id": 1,
+            "name": "Hamburguer",
+            "price": 15.00,
+            "category": "Hamburguer",
+            "image": "https://www.guiadasemana.com.br/contentFiles/image/2021/05/FEA/67239_shutterstock-1938676873.jpg",
+            "description": "Delicioso hamburguer feito com ingredientes frescos.",
+            "flavors": [
+                {
+                    "name": "Padrão",
+                    "ingredients": [
+                        "Pão",
+                        "Carne",
+                        "Queijo",
+                        "Alface",
+                        "Tomate",
+                        "Cebola"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Pizza",
+            "price": 25.01,
+            "category": "Pizza",
+            "image": "https://th.bing.com/th/id/R.a5a2bf50ae479dffdf1940a4999fa114?rik=0%2ftEKf6ANbHuGg&pid=ImgRaw&r=0",
+            "description": "Pizza quentinha e saborosa, perfeita para compartilhar.",
+            "flavors": [
+                {
+                    "name": "Padrão",
+                    "ingredients": [
+                        "Massa de pizza",
+                        "Molho de tomate",
+                        "Queijo",
+                        "Pepperoni",
+                        "Cogumelos",
+                        "Pimentão"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Salada",
+            "price": 10.00,
+            "category": "Salada",
+            "image": "https://claudia.abril.com.br/wp-content/uploads/2020/01/salada1-1.jpg",
+            "description": "Salada fresca com uma variedade de vegetais e molhos.",
+            "flavors": [
+                {
+                    "name": "Tipo 1",
+                    "ingredients": [
+                        "Alface",
+                        "Tomate",
+                        "Cenoura",
+                        "Beterraba",
+                        "Molho de mostarda"
+                    ]
+                },
+                {
+                    "name": "Tipo 2",
+                    "ingredients": [
+                        "Alface",
+                        "Tomate",
+                        "Cenoura",
+                        "Beterraba",
+                        "Molho de iogurte"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Hamburguer Vegano",
+            "price": 25.00,
+            "category": "Hamburguer",
+            "image": "https://veganandcolors.com/wp-content/uploads/2020/04/b2-3-750x761.jpg",
+            "description": "Delicioso hamburguer feito com ingredientes frescos.",
+            "flavors": [
+                {
+                    "name": "Padrão",
+                    "ingredients": [
+                        "Pão",
+                        "Carne de soja",
+                        "Queijo de soja",
+                        "Alface",
+                        "Tomate",
+                        "Cebola"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Pizza Vegana",
+            "price": 30.00,
+            "category": "Pizza",
+            "image": "https://veganogourmand.it/wp-content/uploads/2017/09/Pizza-vegana-con-friarielli.jpg",
+            "description": "Pizza quentinha e saborosa, perfeita para compartilhar.",
+            "flavors": [
+                {
+                    "name": "Padrão",
+                    "ingredients": [
+                        "Massa de pizza",
+                        "Molho de tomate",
+                        "Queijo de soja",
+                        "Pepperoni de soja",
+                        "Cogumelos",
+                        "Pimentão"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Hamburguer Vegetariano",
+            "price": 25.00,
+            "category": "Hamburguer",
+            "image": "https://veganandcolors.com/wp-content/uploads/2020/04/b2-3-750x761.jpg",
+            "description": "Delicioso hamburguer feito com ingredientes frescos.",
+            "flavors": [
+                {
+                    "name": "Padrão",
+                    "ingredients": [
+                        "Pão",
+                        "Carne de soja",
+                        "Queijo",
+                        "Alface",
+                        "Tomate",
+                        "Cebola"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Pizza Vegetariana",
+            "price": 30.00,
+            "category": "Pizza",
+            "image": "https://veganogourmand.it/wp-content/uploads/2017/09/Pizza-vegana-con-friarielli.jpg",
+            "description": "Pizza quentinha e saborosa, perfeita para compartilhar.",
+            "flavors": [
+                {
+                    "name": "Padrão",
+                    "ingredients": [
+                        "Massa de pizza",
+                        "Molho de tomate",
+                        "Queijo",
+                        "Pepperoni de soja",
+                        "Cogumelos",
+                        "Pimentão"
+                    ]
+                }
+            ]
+        }
+    ]
 }
