@@ -96,3 +96,26 @@
     font-size: 7px; /* Reduz o tamanho da fonte */
   }
 }
+
+/* Estilos para telas menores que 375x667 */
+
+@media only screen and (max-width: 375px) and (max-height: 667px) {
+  .buttonContinuar,
+  .buttonFinalizar {
+    padding: 2px 4px; /* Reduz o padding dos botões */
+  }
+
+  .buttonEditar, .buttonRemover {
+    padding: 1px 3px; /* Reduz o padding dos botões */
+  }
+
+  .tabela-carrinho th,
+  .tabela-carrinho td {
+    padding: 4px 2px; /* Reduz o padding das células */
+  }
+
+  .tabela-carrinho th .textTab,
+  .tabela-carrinho tr td {
+    font-size: 6px; /* Reduz o tamanho da fonte */
+  }
+}
