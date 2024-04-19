@@ -2,19 +2,23 @@
   position: fixed;
   bottom: 10px;
   left: 5%;
-  width: 90%;;
+  width: 90%;
+  ;
   background-color: #333;
   color: #fff;
   display: flex;
   justify-content: space-around;
-  align-items: center; /* Centralizando verticalmente */
+  align-items: center;
+  /* Centralizando verticalmente */
   padding: 10px 0;
-  border-radius: 50px; /* Ajuste o valor conforme necessário para obter o arredondamento desejado */
-  transition: all 0.3s ease; /* Adicionando uma transição suave */
+  border-radius: 50px;
+  /* Ajuste o valor conforme necessário para obter o arredondamento desejado */
+  transition: all 0.3s ease;
+  /* Adicionando uma transição suave */
 }
 
 .footer.small {
-   position: fixed;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -54,4 +58,81 @@
 
 .footer-button p {
   margin-top: 4px;
+}
+
+
+/* Estilos para telas menores que 745x966 */
+
+@media (max-width: 745px) {
+  .footer {
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    left: 10%;
+    width: 80%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* Centralizando verticalmente */
+    padding: 10px 0;
+    border-radius: 50px;
+    /* Ajuste o valor conforme necessário para obter o arredondamento desejado */
+    transition: all 0.3s ease;
+    /* Adicionando uma transição suave */
+  }
+
+  .footer.small {
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    left: 5%;
+    width: 90%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* Centralizando verticalmente */
+    padding: 10px 0;
+    border-radius: 50px;
+    /* Ajuste o valor conforme necessário para obter o arredondamento desejado */
+    transition: all 0.3s ease;
+    /* Adicionando uma transição suave */
+  }
+}
+
+/* Estilos para telas menores que 375x667 */
+
+@media (max-width: 375px) {
+  .footer-button {
+    font-size: 12px;
+  }
+
+  .footer-button svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-button p {
+    margin-top: 2px;
+  }
+}
+
+/* Estilos para telas menores que 320x568 */
+
+@media (max-width: 320px) {
+  .footer-button {
+    font-size: 10px;
+  }
+
+  .footer-button svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer-button p {
+    margin-top: 1px;
+  }
 }
