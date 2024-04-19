@@ -192,6 +192,22 @@
   margin-bottom: 20px; /* Adiciona espaço entre o campo de pesquisa e o seletor de categoria */
 }
 
+.search {
+  position: fixed;
+  top: 50%; /* Centraliza verticalmente */
+  left: 0; /* Fixa à esquerda */
+  transform: translateY(-50%); /* Ajusta para o meio da altura */
+  z-index: 999; /* Garante que o campo de pesquisa esteja acima de outros elementos */
+  background-color: #fff; /* Define o fundo para evitar transparência */
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+
+.menu {
+  padding-left: 0px; /* Ajusta o espaço na parte esquerda do conteúdo para evitar a sobreposição pelo campo de pesquisa */
+}
+
+
 .search input {
   padding: 8px;
   border: 1px solid #ccc;
@@ -204,6 +220,83 @@
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px; /* Adiciona espaço acima dos itens do menu */
+}
+
+
+.menu {
+  padding-left: 0px; /* Ajusta o espaço na parte esquerda do conteúdo para evitar a sobreposição pelo campo de pesquisa */
+}
+
+.menu-header {
+  text-align: center; /* Centraliza o texto */
+  margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+}
+
+.search {
+  position: fixed;
+  top: 50%; /* Centraliza verticalmente */
+  left: 0; /* Fixa à esquerda */
+  transform: translateY(-50%); /* Ajusta para o meio da altura */
+  z-index: 999; /* Garante que o campo de pesquisa esteja acima de outros elementos */
+  background-color: #fff; /* Define o fundo para evitar transparência */
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+
+.search input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px; /* Adiciona espaço entre o campo de pesquisa e o seletor de categoria */
+}
+
+.search select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-icon, .close-icon {
+  cursor: pointer;
+  /* Redondo */
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #007bff;
+  color: #fff;
+  /* Para garantir que tenha dimensões quadradas */
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-icon-container {
+  float: right;
+}
+
+.close-icon {
+  cursor: pointer;
+  /* Redondo */
+  border-radius: 50%;
+  padding: 10px; /* Aumenta o espaço ao redor do ícone */
+  background-color: #007bff;
+  color: #fff;
+  /* Para garantir que tenha dimensões quadradas e alinhamento do texto */
+  width: 20px; /* Ajuste conforme necessário */
+  height: 20px; /* Ajuste conforme necessário */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 .menu-items {
   display: flex;
